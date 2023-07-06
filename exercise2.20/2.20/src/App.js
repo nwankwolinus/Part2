@@ -25,6 +25,7 @@ const App = () => {
       ) : (
       <CountryList 
         countries={matchedContries ? matchedContries : []}
+        showCountry={setSearch}
       />
       )}
     </div>
